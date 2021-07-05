@@ -1,0 +1,107 @@
+html {
+  font-family: Trebuchet MS;
+    }
+
+@media (max-width: 460px) {
+  p {
+    font-size: 12px;
+    padding: 2px;
+  }
+}
+@media (min-width: 461px) {
+  p {
+    padding: 30px;
+    font-size: 20px;
+  }
+}
+
+.nav-bar ul {
+  display: block;
+  margin-left: -10px;
+  margin-top: 0px;
+  padding: 8px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: grey;
+  text-align: center;
+}
+
+.nav-bar ul li {
+  display: inline;
+  list-style-type: none;
+  padding: 20px;
+}
+
+.nav-bar a{
+  font-family: Brush Script MT;
+  font-size: 40px;
+}
+
+@media (max-width: 500px) {
+  .nav-bar a{
+    font-size: 20px;
+  }
+}
+
+body {
+  background: linear-gradient(green, white, orange);
+  
+}
+
+img {
+  border-radius: 25px;
+  width: 600px;
+  height: auto;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+    }
+    
+#img-caption {
+  text-align: center;
+    }
+
+    
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+    }
+
+.styled-sub {
+  text-align: center;
+  font-family: Brush Script MT;
+  font-size: 30px;
+}
+
+h1 {
+  font-family: Brush Script MT;
+  color: black;
+  font-size: 50px;
+  padding-top: 15px;
+    }
+h2 {
+  font-family: Trebuchet MS;
+  font-size: 20px;
+  border-bottom: 1px solid green;
+    }
+    
+.irish-flag-background {
+  background: linear-gradient(to right, #169B62 33.33%, #fff 0, #fff 66.66%, #FF883E 0);
+  width: 270px;
+  height: 80px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 20px;
+    }
+footer {
+  font-family: monospace;
+  display: block;
+  background-color: grey;
+  color: white;
+  width: 100%;
+  margin: auto;
+}
